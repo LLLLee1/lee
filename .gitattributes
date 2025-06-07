@@ -1,1 +1,1 @@
-echo "*.pkl filter=lfs diff=lfs merge=lfs -text" > .gitattributes
+*.pkl filter=lfs diff=lfs merge=lfs -text

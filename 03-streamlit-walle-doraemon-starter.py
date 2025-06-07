@@ -1,3 +1,11 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:78302185d8d682e7e201009faf341212307c64a64b67753d72ada17066991a6c
-size 264
+import streamlit as st
+import sys
+
+# Python 版本检查
+if sys.version_info >= (3, 13):
+    st.error("⚠️ 当前 Python 版本为 3.13+，可能与 fastai 不兼容。建议使用 Python 3.11。")
+    st.stop()
+
+from fastai.vision.all import *
+import pathlib
+
