@@ -1,5 +1,5 @@
 streamlit==1.45.1
-fastai==2.8.2
-torch==2.7.0
-torchvision==0.22.1  # 或 0.16.2，取决于兼容性
+fastai==2.8.5  # 更新到最新版本
+torch==2.7.1   # 与 torchvision 0.22.1 兼容
+torchvision==0.22.1
 pillow==10.4.0
