@@ -1,5 +1,6 @@
+# requirements.txt
 streamlit==1.45.1
-fastai==2.8.5  # 更新到最新版本
-torch==2.7.1   # 与 torchvision 0.22.1 兼容
+fastai>=2.8.0       # 允许安装 2.8.x 系列的最新版本
+torch==2.7.1
 torchvision==0.22.1
-pillow==10.4.0
+pillow>=10.0.0
